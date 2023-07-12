@@ -3,26 +3,20 @@ from flask import Flask
 from flask import render_template, jsonify, request
 import os 
 import openai
-os.environ["OPENAI_API_KEY"] = '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'
-# for future refferce we shall call the from flask import  Flask bc if u do lower flask u will 
-#from flask_restful import Api, Resource, reqparse
+os.environ["OPENAI_API_KEY"] = "plug api key here"
+# for future reference we shall call the from flask import  Flask bc if u do lower flask u will 
+#from flask_restful import Api, Resource, reparse
 #from flask_cors import CORS #comment this on deployment
 #from api.HelloApiHandler import HelloApiHandler
 # WE NEED TO ENSURE THAT THE RESTFUL API IS READY TO GO 
 import json
-# when we plug to github make sure to replace the the api key
-#openai.api_key = "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"
+# When we plug into GitHub make sure to replace the api key
 app = Flask(__name__)
-#@app.route('/')
-#def index():
- #   return  render_template("App.html")
-    # hopefully we can render to the new form
-
 @app.route('/api/chatbot', methods =['POST']) # we are getting something
 def chat():
     user_Message = request.json['message']
     # calling the chatbot openAPI this code stays the same, so keep this
-    #openai.api_key = "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"
+    #openai.api_key = "plug here"
     chatbot_response = openai.ChatCompletion.create(
         model = "gpt-3.5-turbo",
         messages = [
