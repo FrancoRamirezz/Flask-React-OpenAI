@@ -17,7 +17,7 @@ Step 2: Create a new subdirectory for the Client folder
 Commands needed for MAC: Pwd == Present working directory,
                         cd == Change Directory to the Client folder
 
-Step 3: Create a new subdirectory for the Server folder.Use the same commands as the one before
+Step 3: Create a new subdirectory for the Server folder. Use the same commands as the one before
 
 ## Scripts
 
