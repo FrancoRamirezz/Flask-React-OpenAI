@@ -2,8 +2,7 @@
 
 Building a Chatbot project using React for the interface and Flask for the backend
 
-## Table of Contents
-
+## Table of Contents 🤖
 - [Installation](#installation)
 - [Scripts](#Scripts)
 - [Features](#features)
