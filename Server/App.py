@@ -4,10 +4,8 @@ from flask import render_template, jsonify, request
 import os 
 import openai
 os.environ["OPENAI_API_KEY"] = "plug api key here"
-# for future reference we shall call the from flask import  Flask bc if u do lower flask u will 
-#from flask_restful import Api, Resource, reparse
-#from flask_cors import CORS #comment this on deployment
-#from api.HelloApiHandler import HelloApiHandler
+# or you can import it which is the way I recommend is to import it. 
+
 # WE NEED TO ENSURE THAT THE RESTFUL API IS READY TO GO 
 import json
 # When we plug into GitHub make sure to replace the api key
