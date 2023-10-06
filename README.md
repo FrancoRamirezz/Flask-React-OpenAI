@@ -1,6 +1,6 @@
- # Flask + React + OpenAI =  Chatbot project 🚀
+ # FastAPI + React + OpenAI =  Chatbot project 🚀
 
-Building a Chatbot project using React for the interface and Flask for the backend
+Building a Chatbot project using React for the interface and FastAPI for the backend
 
 ## Table of Contents 🤖
 - [Installation](#installation)
@@ -21,7 +21,7 @@ Step 3: Create a new subdirectory for the Server folder. Use the same commands a
 ## Scripts
 
 ### Server:
-Go into terminal and type this "pip install Flask"
+Go into terminal and type this "pip install FastAPI"
 
 Note: the typical port for Flask is 5000 or 5500 
 
