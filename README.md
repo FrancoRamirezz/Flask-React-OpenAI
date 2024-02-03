@@ -1,4 +1,4 @@
- # FastAPI + React + OpenAI =  Chatbot project 🚀
+ # Personal portfolio project 🚀
 
 Building a Chatbot project using React for the interface and FastAPI for the backend
 
