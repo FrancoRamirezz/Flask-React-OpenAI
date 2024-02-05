@@ -17,14 +17,8 @@ Commands needed for MAC: Pwd == Present working directory,
 
 Step 3: Create a new subdirectory for the Server folder. Use the same commands as the one before
 
-## Scripts
-
-### Server:
-Go into terminal and type this "pip install FastAPI"
-
-Note: the typical port for Flask is 5000 or 5500 
-
-Open http://localhost:5000 to view it in the browser.
+## Hosting
+For the personal website: I am going to add it to firebase or vercel to host it
 
 ### Client:
 Go into terminal and type this "npm install"
