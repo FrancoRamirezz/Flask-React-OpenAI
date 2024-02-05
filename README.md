@@ -10,7 +10,6 @@ Building a Chatbot project using React for the interface and FastAPI for the bac
 
 
 ## Installation
-Step 1: Create two folders one named Client and Server
 
 Step 2: Create a new subdirectory for the Client folder
 Commands needed for MAC: Pwd == Present working directory,
