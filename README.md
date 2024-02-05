@@ -1,6 +1,5 @@
  # Personal portfolio project 🚀
-
-Building a Chatbot project using React for the interface and FastAPI for the backend
+Was originally a different project, but decided to make a personal one 
 
 ## Table of Contents 🤖
 - [Installation](#installation)
