@@ -7,19 +7,18 @@ function Login_Form(){
 const  [loginform, setloginform] = useState("")
 const [checkEmail, setcheckEmail ] = useState("")
 
-const Email = (e) => {
-e.Email
-
-
-
-
+const click = (e) => {
+<button onClick={e}>Click here</button>
 }
  
-return{
+return(
+<div>
+
+<h1> Login Form</h1>
 
 
-
-}
+</div>
+)
 
 }
 
