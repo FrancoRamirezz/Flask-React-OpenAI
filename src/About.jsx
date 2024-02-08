@@ -1,42 +1,41 @@
 import React from "react";
-import { Card, CardContent, Typography, Avatar, Grid } from '@mui/material'
+import { Card, CardContent, Typography, Avatar, Grid, Chip, Container } from '@mui/material'
+import Usepic from "./image/Usepic.JPG"
+const skills = ["Python", "Javascript","Java", "Golang", "React", "Nodejs"]
+
 function About(){
 return(
-<div>
-<Card style={{ maxWidth: 800, margin: '40px auto', padding: '20px' }}>
-            <CardContent>
-              <Grid container spacing={3} alignItems="center" justifyContent="center"> 
-                <Grid item xs={12} sm={6}>
-                  <Avatar
-                    alt="Francisco Ramirez"
-                    src="/your-image.jpg" // Replace with your image path
-                    style={{ width: 150, height: 150, margin: 'auto' }}
-                  />
-                </Grid>
-                <Grid item xs={12} sm={6}>
-                  <Typography variant="h5" gutterBottom>
-                    Your Name
-                  </Typography>
-                  <Typography variant="body1">
-                    Brief introduction or biography goes here. Explain who you are, what you do, your experience, or anything interesting about yourself.
-                  </Typography>
-                </Grid>
-              </Grid>
+    <Container maxWidth="md" sx={{ mt: 4 }}>
+    <Grid container spacing={3} alignItems="center">
+      <Grid item xs={12} sm={4}>
+        <Avatar
+          alt="Your Name"
+          src="/your-image.jpg"
+          sx={{ width: 150, height: 150, mx: 'auto' }} // Centered on small screens
+        />
+      </Grid>
+      <Grid item xs={12} sm={8}>
+        <Typography variant="h4" sx={{ fontSize: { xs: '1.5rem', sm: '2rem' }, mb: 2 }}>
+          Francisco Ramirez
+        </Typography>
+        <Typography variant="subtitle1">
+          A lifelong learner for 
+        </Typography>
+      </Grid>
+    </Grid>
+
+    <Typography variant="h5" sx={{ mt: 4 }}>
       
-              <Typography variant="h6" style={{ marginTop: 20 }}>
-                More About Me
-              </Typography>
-              <Typography variant="body1">
-                Here, you can add more detailed information about yourself. This could include your hobbies, interests, professional journey, skills, or achievements.
-              </Typography>
-            </CardContent>
-          </Card>
-
-
-
-
-</div>
-)
-};
+    </Typography>
+    <Grid container spacing={1} sx={{ mt: 1 }}>
+      {skills.map(skill => (
+        <Grid item key={skill}>
+          <Chip label={skill} />
+        </Grid>
+      ))}
+    </Grid>
+  </Container>
+);
+}
 
 export default About;
