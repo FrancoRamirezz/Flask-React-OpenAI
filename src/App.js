@@ -20,7 +20,7 @@ const reaction= (e) =>{
     
 
 return (
-  <BrowserRouter>
+
   <div>
      <header className="header">
         <div className="logo">
@@ -90,7 +90,7 @@ return (
       </section>
 
   </div>
-  </BrowserRouter>
+
   )
   }
 
