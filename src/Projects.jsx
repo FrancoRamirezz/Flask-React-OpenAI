@@ -10,7 +10,17 @@ function Projects(){
 
 
 return(
-<div></div>
+<div>
+<main>
+
+<section></section>
+
+
+
+
+</main>
+</div>
+
 
 
 )
