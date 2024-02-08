@@ -30,7 +30,7 @@ return (
         <nav className="nav">
           <ul>
             <li>
-              < Link href="/">Projects</Link>
+              < Link href="/Projects">Projects</Link>
             </li>
             <li>
               <Link href="/Pricing">Pricing</Link>
