@@ -1,5 +1,5 @@
  # Personal portfolio project 🚀
-Was originally a different project, but decided to make a personal one 
+This project is based on a personal portfolio, but with a twist, I am also going to add a coding sandbox as well. 
 
 ## Table of Contents 🤖
 - [Installation](#installation)
@@ -10,9 +10,7 @@ Was originally a different project, but decided to make a personal one
 
 ## Installation
 
-Step 2: Create a new subdirectory for the Client folder
-Commands needed for MAC: Pwd == Present working directory,
-                        cd == Change Directory to the Client folder
+As for installation, it is important to have "npm" installed and ready to work
 
 Step 3: Create a new subdirectory for the Server folder. Use the same commands as the one before
 
