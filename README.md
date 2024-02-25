@@ -10,9 +10,7 @@ This project is based on a personal portfolio, but with a twist, I am also going
 
 ## Installation
 
-As for installation, it is important to have "npm" installed and ready to work
-
-Step 3: Create a new subdirectory for the Server folder. Use the same commands 
+As for installation, it is important to have "npm" installed and ready to work. After that is ready 
 
 ## Hosting
 For the personal website: I am going to add it or vercel to host it
