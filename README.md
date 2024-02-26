@@ -18,7 +18,7 @@ For the personal website: I am going to add it or vercel to host it
 ### Client:
 Go into terminal and type this "npm install"
 
-Then run "npm start" in the terminal and all the following dependencies will follow
+Then run "npm start" in the terminal and all the following dependencies will follow. Make sure that the dependencies are ready to go in your json files 
 
 Open http://localhost:3000 to view it in the browser.
 
