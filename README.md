@@ -10,7 +10,10 @@ This project is based on a personal portfolio, but with a twist, I am also going
 
 ## Installation
 
-As for installation, it is important to have "npm" installed and ready to work. After that is ready, the best thing is to use npx install
+As for installation, it is important to have "npm" installed and ready to work. After that is ready, the best thing is to use npx install.
+
+# The diffrent componets 
+The homepage,the main page for this project
 
 ## Hosting
 For the personal website: I am going to add it or vercel to host it
