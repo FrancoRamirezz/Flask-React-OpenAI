@@ -1,0 +1,4 @@
+To get the repos to show up on the website there are mutiple ways:
+Use github api to have them pop up
+
+https://cli.github.com/manual/gh_auth
