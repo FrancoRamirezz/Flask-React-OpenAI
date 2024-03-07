@@ -8,6 +8,10 @@ This project is based on a personal portfolio, but with a twist, I am also going
 - [Contributing](#contributing)
 
 https://codesandbox.io/p/devbox/portfolio-website-pwxwd8
+https://cli.github.com/manual/gh
+https://www.freecodecamp.org/news/how-to-build-a-portfolio-site-with-nextjs-tailwindcss/
+https://github.com/judygab/nextjs-portfolio/blob/main/src/app/components/Navbar.jsx
+https://github.com/olawanlejoel/Kinsta-developer-portfolio/tree/main/src/components
 ## Installation
 
 As for installation, it is important to have "npm" installed and ready to work. After that is ready, the best thing is to use npx install.
