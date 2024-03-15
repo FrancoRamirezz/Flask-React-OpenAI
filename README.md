@@ -22,7 +22,8 @@ https://github.com/olawanlejoel/Kinsta-developer-portfolio/tree/main/src/compone
 As for installation, it is important to have "npm" installed and ready to work. After that is ready, the best thing is to use npx install.
 
 # The diffrent componets 
-The homepage,the main page for this project
+Homepage- the hero section
+About page
 
 ## Hosting
 For the personal website: I am going to add it or vercel to host it
